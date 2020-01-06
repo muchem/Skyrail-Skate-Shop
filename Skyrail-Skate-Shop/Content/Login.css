@@ -1,0 +1,42 @@
+﻿.main-box{
+    width:40vw;
+    margin:auto;
+}
+.login-Bnt {
+    width: 100%;
+    background-color: black;
+    border: black;
+    padding: 5px;
+    color: white;
+    margin: 10px 0;
+}
+.Create-Bnt {
+    border: solid 1px black;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    width: 100%;
+}
+.input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px 2px;
+}
+.header-txt {
+    padding-bottom: 20px;
+    text-align: center;
+}
+.tl{
+    margin-right:500px;
+}
+.tl-2 {
+    margin-right: 480px;
+}
+@media screen and (max-width:576px){
+    .header-txt {
+        padding-top: 20px;
+    }
+    .main-box {
+        width: 60vw;
+    }
+}

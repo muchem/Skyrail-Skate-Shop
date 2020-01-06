@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Skyrail_Skate_Shop.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href ="Content/Site.css" />
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <section class ="container-fluid free-banner">
+            <h6 class ="text-center" style ="margin-bottom:0;">FREE SHIPPING ON ALL ORDERS</h6>
+        </section>
+        <div class ="container-fluid site-info">
+            <div class ="container" style ="padding:0">
+           <div class ="site-section">
+                <ul class ="info-link-box">
+                    <li class ="info-item"><a runat="server" href="~/Login.aspx">
+                        <asp:Label ID="registrationLabel" runat="server" Text="Login/Sign Up"></asp:Label></a>
+                    </li>  
+               </ul>
+             </div>
+           </div> 
+        </div>
+        <header class ="container-fluid logo-bar">
+            <div class =" container">
+                <h1 class ="logo">SKYRAIL</h1> 
+            </div>
+        <h6 class ="text-center sub-txt">SKATE SHOP</h6> 
+        </header>
+        <nav class="navbar navbar-expand-md top-nav navbar-dark">
+            <div class="container">
+             
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="Index.aspx"><b>HOME</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>SKATEBOARDS</b></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>BIKES</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>SCOOTERS</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>T-SHIRTS</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>ACCESORIES</b></a>
+            </li>
+        </ul>
+    </div>
+  </div>
+</nav>
+        <div class = "container body-content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

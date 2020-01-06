@@ -1,0 +1,102 @@
+﻿body {
+   
+}
+.body-content {
+    background-color: white;
+}
+
+.navbar {
+    background-color: black;
+    border: solid 1px #242424;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.free-banner {
+    border-bottom: 5px solid black;
+    padding: 5px 0;
+    background-color: #f74945;
+}
+
+.info-item {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.logo-bar {
+    width: 100%;
+    padding: 18px;
+    background-color: white;
+}
+
+header {
+    padding: 20px 0;
+}
+
+#flag-svg {
+    width: 30px;
+    margin-right: 4px;
+}
+
+.site-section {
+    padding: 5px 0;
+    width:100%;
+}
+.navbar-toggler{
+    background-color:red;
+}
+.site-info {
+    background-color: #e0e0e0;
+    width: 100%;
+}
+.info-link-box {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  
+}
+
+.logo {
+    color: black;
+    text-align: center;
+    font-size:4rem;
+    margin:0;
+    font-family: 'Black Ops One', cursive;
+}
+
+.info-item a {
+    color: #5e5e5e;
+    text-decoration: underline;
+}
+    .info-item a:hover{
+        color:gray;
+    }
+    .sub-txt {
+        margin: 0;
+        letter-spacing: 2px;
+    }
+
+.footer-header {
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+footer {
+    background-color: #363636;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+.info-link-box{
+    padding:0;
+}
+
+@media screen and (max-width: 576px) {
+    .navbar {
+
+        margin-bottom: 0px;
+    }
+    .logo{
+        font-size:3rem;
+    }
+}

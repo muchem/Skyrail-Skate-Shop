@@ -1,0 +1,32 @@
+﻿.input {
+    width: 100%;
+    padding: 8px 2px;
+    margin-bottom: 10px;
+}
+
+.create-bnt {
+    width: 100%;
+    padding: 8px 0px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.login-link {
+    text-decoration: underline;
+    color: black;
+}
+
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:576px) {
+ .col-sm-6{
+     padding:0;
+     margin:0 15px;
+ }
+ .header{
+     padding-top:20px;
+ }
+}
