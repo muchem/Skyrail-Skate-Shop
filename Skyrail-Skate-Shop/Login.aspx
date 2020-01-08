@@ -10,7 +10,7 @@
                 <asp:TextBox ID="EmailBox" runat="server" CssClass="input"></asp:TextBox>
             <h6 class="tl-2">Password</h6>
                 <asp:TextBox ID="PassBox" runat="server" CssClass="input"></asp:TextBox><br />
-              <asp:Button ID="LoginBnt" runat="server" Text="Log In" CssClass="login-Bnt"/>
+                <asp:Button ID="LoginBnt" runat="server" Text="Log In" CssClass="login-Bnt" OnClick="LoginBnt_Click"/>
             <br />
                <asp:Button ID="CreateBnt" runat="server" Text="Create An Account" CssClass="Create-Bnt" OnClick="CreateBnt_Click"/>
         </div>
