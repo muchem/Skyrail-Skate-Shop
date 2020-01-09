@@ -21,6 +21,7 @@ namespace Skyrail_Skate_Shop
         {
             if(Connection.State == ConnectionState.Closed){
                 Connection.Open();
+            
                 SqlCommand sqlcom = new SqlCommand("CreateAccount",Connection);
                 sqlcom.CommandType = CommandType.StoredProcedure;
                 sqlcom.Parameters.AddWithValue("@Username",UserBox.Text.Trim());
