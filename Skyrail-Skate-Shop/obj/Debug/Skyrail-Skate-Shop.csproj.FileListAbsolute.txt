@@ -50,8 +50,6 @@ C:\Users\User\source\repos\Skyrail-Skate-Shop\Skyrail-Skate-Shop\bin\roslyn\vbc.
 C:\Users\User\source\repos\Skyrail-Skate-Shop\Skyrail-Skate-Shop\bin\roslyn\vbc.rsp
 C:\Users\User\source\repos\Skyrail-Skate-Shop\Skyrail-Skate-Shop\bin\roslyn\VBCSCompiler.exe
 C:\Users\User\source\repos\Skyrail-Skate-Shop\Skyrail-Skate-Shop\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\User\source\repos\Skyrail-Skate-Shop\Skyrail-Skate-Shop\bin\Skyrail-Skate-Shop.dll.CodeAnalysisLog.xml
-C:\Users\User\source\repos\Skyrail-Skate-Shop\Skyrail-Skate-Shop\bin\Skyrail-Skate-Shop.dll.lastcodeanalysissucceeded
 C:\Users\User\source\repos\Skyrail-Skate-Shop\Skyrail-Skate-Shop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\User\source\repos\Skyrail-Skate-Shop\Skyrail-Skate-Shop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\User\source\repos\Skyrail-Skate-Shop\Skyrail-Skate-Shop\obj\Debug\Skyrail-Skate-Shop.csprojAssemblyReference.cache

@@ -22,7 +22,7 @@
             <div class ="container" style ="padding:0">
            <div class ="site-section">
                 <ul class ="info-link-box">
-                    <li class ="info-item"><a runat="server" href="~/Login.aspx">
+                    <li class ="info-item"><a runat="server" href="~/Login.aspx" id ="LogLink">
                         <asp:Label ID="registrationLabel" runat="server" Text="Login/Sign Up"></asp:Label></a>
                     </li>  
                </ul>

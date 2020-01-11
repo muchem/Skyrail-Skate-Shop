@@ -35,6 +35,7 @@ namespace Skyrail_Skate_Shop
                 {
                     Session["email"] = Email;
                     Response.Redirect("index.aspx");
+                    
                 } 
             
             }
