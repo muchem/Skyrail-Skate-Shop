@@ -17,5 +17,11 @@ namespace Skyrail_Skate_Shop
                 Label1.Text = email;
             }
         }
+
+        protected void Logoutbnt_Click(object sender, EventArgs e)
+        {
+            Session.Abandon();
+            Response.Redirect("Index.aspx");
+        }
     }
 }
