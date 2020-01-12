@@ -17,6 +17,26 @@
              <img src ="https://images.unsplash.com/photo-1511361440208-4ed8c30293a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
          </div>
          <h3 class ="s">Shop Bmx</h3>
-     </div>
+     </div> 
  </div>
+    <div class ="row">
+        <div class ="col-md-12" style="padding:0 5px">
+             <div class ="img-box">
+             <img src ="https://static.zumiez.com/skin/frontend/delorum/default/images/2019-HOL-signage-UP-TO-70-HP-908x200-ENG.jpg" />
+         </div>
+              <h5 class ="text-center box-tag">Shop Now</h5>
+        </div>
+    </div>
+    <div class ="row">
+      
+        <div class ="col-md-8" style ="padding:0;">
+              <div class ="img-box">
+             <img src ="https://cdn.hipwallpaper.com/i/62/43/qhRzkr.jpg" />
+         </div>
+            <h5 class ="text-center box-tag">Shop Pro Scooters</h5>
+        </div>
+        <div class ="col-md-4">
+           
+        </div>
+    </div>
 </asp:Content>

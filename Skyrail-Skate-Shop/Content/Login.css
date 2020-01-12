@@ -32,11 +32,9 @@
 .tl-2 {
     margin-right: 480px;
 }
-.ErrorMessage{
-    color:red;
-}
-@media screen and (max-width:576px) {
-    .header-txt {
+
+    @media screen and (max-width:576px) {
+        .header-txt {
         padding-top: 20px;
     }
     .main-box {

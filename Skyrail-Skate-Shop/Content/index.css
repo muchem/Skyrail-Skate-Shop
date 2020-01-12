@@ -39,6 +39,16 @@
         .box-2:hover {
             cursor: pointer;
         }
+.col-md-8 {
+    padding: 0 5px 0 0;
+}
+.box-tag {
+    background-color: rgba(0,0,0,.55);
+    color: white;
+    position: relative;
+    bottom: 38px;
+    padding: 7px 0;
+}
 @media screen and (max-width:768px){
 
 }

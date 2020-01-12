@@ -11,53 +11,57 @@
         <div class ="col-sm-6">
           <h6>First Name</h6>
           <asp:TextBox ID="FnameBox" runat="server" CssClass="input"></asp:TextBox>
-            <asp:RequiredFieldValidator id="RequiredFieldValidator2"
+            <p style="color:red;"> <asp:RequiredFieldValidator id="RequiredFieldValidator2"
               runat="server"
               ControlToValidate="FnameBox"
-              ErrorMessage="Enter First Name"
-              SetFocusOnError="True" Display="Dynamic" /> 
+              ErrorMessage="First Name is Required"
+              SetFocusOnError="True" Display="Dynamic" /> </p>
               <h6>Email</h6>
           <asp:TextBox ID="EmailBox" runat="server" CssClass="input"></asp:TextBox>
-             <asp:RequiredFieldValidator id="RequiredFieldValidator5"
+              <p style="color:red;"><asp:RequiredFieldValidator id="RequiredFieldValidator5"
               runat="server"
               ControlToValidate="EmailBox"
-              ErrorMessage="Enter Email" />
-            <br />
-            <asp:RegularExpressionValidator ID="EmailValidator"
+              ErrorMessage="Email is Required"
+              Display="Dynamic"/></p>
+            <p style="color:red;"><asp:RegularExpressionValidator ID="EmailValidator"
                 runat="server" 
-                 ControlToValidate="EmailBox"
+                ControlToValidate="EmailBox"
                 ValidationExpression="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
-                ErrorMessage="Enter a Vaild Email"></asp:RegularExpressionValidator> 
+                ErrorMessage="Enter a Vaild Email"
+                Display="Dynamic"
+                ></asp:RegularExpressionValidator> </p>
           <h6>Password</h6>
                <asp:TextBox ID="PassBox" runat="server" TextMode="Password" CssClass="input"></asp:TextBox>
-           <asp:RequiredFieldValidator id="passwordReq"
+           <p style="color:red;"> <asp:RequiredFieldValidator id="passwordReq"
               runat="server"
               ControlToValidate="PassBox"
-              ErrorMessage="Enter Password"
-              SetFocusOnError="True" Display="Dynamic" /> 
+              ErrorMessage="Password is Required"
+              SetFocusOnError="True" Display="Dynamic" /> </p>
 </div>
         <div class ="col-sm-6">
           <h6>Last Name</h6>
             <asp:TextBox ID="LastNameBox" runat="server" CssClass="input"></asp:TextBox>
-             <asp:RequiredFieldValidator id="RequiredFieldValidator3"
+             <p style="color:red;"> <asp:RequiredFieldValidator id="RequiredFieldValidator3"
               runat="server"
               ControlToValidate="LastNameBox"
-              ErrorMessage="Enter Last Name"
-              SetFocusOnError="True" Display="Dynamic" />
+              ErrorMessage="Last Name is Required"
+              SetFocusOnError="True" Display="Dynamic" /></p>
                   <h6>Username</h6>
           <asp:TextBox ID="UserBox" runat="server" CssClass="input"></asp:TextBox>
-           <asp:RequiredFieldValidator id="RequiredFieldValidator4"
+             <p style="color:red;">
+             <asp:RequiredFieldValidator id="RequiredFieldValidator4"
               runat="server"
               ControlToValidate="UserBox"
-              ErrorMessage="Password is required"
-              SetFocusOnError="True" Display="Dynamic" /> 
+              ErrorMessage="Username is required"
+              SetFocusOnError="True" Display="Dynamic" /> </p>
                <h6>Confirm Password</h6>
                <asp:TextBox ID="ConfirmPassword" runat="server" TextMode="Password" CssClass="input"></asp:TextBox>
+             <p style="color:red;">
           <asp:RequiredFieldValidator id="RequiredFieldValidator1"
               runat="server"
               ControlToValidate="ConfirmPassword"
               ErrorMessage="Password Confirmation is required"
-              SetFocusOnError="True" Display="Dynamic" /> 
+              SetFocusOnError="True" Display="Dynamic" /> </p>
           <br />
             <asp:CompareValidator id="comparePasswords" 
               runat="server"
@@ -66,7 +70,7 @@
               ErrorMessage="Your passwords do not match up!"
               Display="Dynamic" />
            <asp:Button ID="CreateAcount" runat="server" Text="Create Account" CssClass="create-bnt" OnClick="CreateAcount_Click"/>
-          <h6 style="margin:5px 0">Already Have An Account?</h6>
+          <p style="margin:5px 0">Already Have An Account?</p>
          <a href="Login.aspx" class="login-link">Login</a>
         </div>
     </div>

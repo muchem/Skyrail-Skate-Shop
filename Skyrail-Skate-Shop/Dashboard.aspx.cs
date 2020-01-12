@@ -15,6 +15,11 @@ namespace Skyrail_Skate_Shop
             {
                 string email = Session["Email"].ToString();
                 Label1.Text = email;
+
+                if(Session["Email"] == null)
+                {
+                    Response.Redirect("Index.aspx");
+                }
             }
         }
 
