@@ -49,8 +49,23 @@
     bottom: 38px;
     padding: 7px 0;
 }
+.box-tag-2 {
+    background-color: rgba(0,0,0,.55);
+    color: white;
+    position: relative;
+    bottom: 34px;
+    padding: 8px 0;
+}
+.col-md-4 {
+    padding: 0 0 0px 8px;
+}
 @media screen and (max-width:768px){
-
+    .col-md-4 {
+        padding: 0 0 8px 0px;
+    }
+    .m {
+        margin-top: 10px;
+    }
 }
 @media screen and (max-width:576px) {
     .box-1{

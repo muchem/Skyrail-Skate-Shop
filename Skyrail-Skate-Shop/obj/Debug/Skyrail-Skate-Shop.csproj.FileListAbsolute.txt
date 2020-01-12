@@ -55,3 +55,4 @@ C:\Users\User\source\repos\Skyrail-Skate-Shop\Skyrail-Skate-Shop\bin\Microsoft.C
 C:\Users\User\source\repos\Skyrail-Skate-Shop\Skyrail-Skate-Shop\obj\Debug\Skyrail-Skate-Shop.csproj.CopyComplete
 C:\Users\User\source\repos\Skyrail-Skate-Shop\Skyrail-Skate-Shop\obj\Debug\Skyrail-Skate-Shop.dll
 C:\Users\User\source\repos\Skyrail-Skate-Shop\Skyrail-Skate-Shop\obj\Debug\Skyrail-Skate-Shop.pdb
+C:\Users\User\source\repos\Skyrail-Skate-Shop\Skyrail-Skate-Shop\obj\Debug\Skyrail-Skate-Shop.csprojAssemblyReference.cache

@@ -36,7 +36,10 @@
             <h5 class ="text-center box-tag">Shop Pro Scooters</h5>
         </div>
         <div class ="col-md-4">
-           
+             <div class ="img-box m">
+                <img src="Content\Images\freestyle-scooter.jpg" />
+         </div>
+             <h6 class ="text-center box-tag-2">Shop Freestyle Scooters</h6>
         </div>
     </div>
 </asp:Content>

@@ -90,7 +90,9 @@ footer {
 .info-link-box{
     padding:0;
 }
+@media screen and (max-width:768px){
 
+}
 @media screen and (max-width: 576px) {
     .navbar {
 
