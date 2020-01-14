@@ -72,6 +72,9 @@
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+        <footer>
+            <h1 class ="text-center"><b>SKYRAIL</b></h1>
+        </footer>
     </form>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
