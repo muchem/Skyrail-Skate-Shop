@@ -28,7 +28,6 @@
         </div>
     </div>
     <div class ="row">
-      
         <div class ="col-md-8" style ="padding:0;">
               <div class ="img-box">
              <img src ="https://cdn.hipwallpaper.com/i/62/43/qhRzkr.jpg" />
@@ -42,4 +41,18 @@
              <h6 class ="text-center box-tag-2">Shop Freestyle Scooters</h6>
         </div>
     </div>
+    <div class ="row">
+        <div class ="col-md-6">
+             <div class ="img-box">
+             <img src ="https://ak1.ostkcdn.com/images/products/is/images/direct/282925b66a64dbbd3bb33e1c379f11260e0fe9e2/Women%27s-and-men%27s-Casual-Graphic-Hoodies.jpg" />
+         </div>
+             <h5 class ="text-center box-tag">Shop Hoodies</h5>
+        </div>
+         <div class ="col-md-6">
+              <div class ="img-box">
+                   <img src ="https://cdn.shopify.com/s/files/1/1696/5669/products/444444938_5a82e2b0-1287-470a-a7fe-900568cf7c4f_600x.jpg?v=1505603612" />
+              <h5 class ="text-center box-tag">Shop Graphic Tees</h5>
+        </div>
+    </div>
+        </div>
 </asp:Content>

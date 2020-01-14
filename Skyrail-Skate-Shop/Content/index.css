@@ -59,9 +59,12 @@
 .col-md-4 {
     padding: 0 0 0px 8px;
 }
+.body-content {
+    border: 8px solid #424242;
+}
 @media screen and (max-width:768px){
     .col-md-4 {
-        padding: 0 0 8px 0px;
+        padding: 0 0 10px 8px;
     }
     .m {
         margin-top: 10px;
@@ -71,7 +74,13 @@
     .box-1{
         margin-bottom:10px;
     }
- .box-1,.box-2{
-     padding:0;
- }
+    .col-md-4 {
+        padding: 0 0 8px 0px;
+    }
+    .box-1,.box-2{
+        padding:0;
+    }
+    .body-content {
+        border:none;
+    }
 }
