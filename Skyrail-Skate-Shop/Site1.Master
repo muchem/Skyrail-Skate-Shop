@@ -74,6 +74,47 @@
         </div>
         <footer>
             <h1 class ="text-center"><b>SKYRAIL</b></h1>
+            <div class ="row"style="background-color:white;">
+                <div class ="container">
+                    <div class ="row">
+                <div class="col-md-6 d-flex">
+                    <div>
+                     <ul>
+                        <li><h5>Need Help?</h5></li>
+                        <li>Track My Order</li>
+                        <li>Returns and Exchanges</li>
+                        <li>Returns and Exchanges</li>
+                        <li>Customer Service</li>
+                        <li>Contact Us</li>
+                    </ul>
+                    </div>
+                    <div>
+                        <h3>fsd</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex">
+                    <div>
+                     <ul>
+                        <li><h5>Explore</h5></li>
+                        <li>Jobs</li>
+                        <li>About Zumiez</li>
+                        <li>Zumiez Foundation</li>
+                        <li>Blue Tornato</li>
+                        <li>Community</li>
+                        <li>Investors</li>
+                        <li>Popular Searches</li>
+                        <li>Zumiez Presents</li>
+                    </ul>
+                </div>
+                    <div>
+                    <h5>Be The First To Know</h5>
+                        <p>Subscribe to email + never miss out. </p>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
         </footer>
     </form>
 
