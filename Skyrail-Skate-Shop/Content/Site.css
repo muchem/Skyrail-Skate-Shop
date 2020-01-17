@@ -96,8 +96,29 @@ footer {
     .info-link-box {
         padding: 0;
     }
-@media screen and (max-width:768px){
+.email-sign{
+    color:white;
+    background-color:black;
+    padding:8px;
+    border:none;
+}
+.catalog-sign {
+    border: solid 1px black;
+    padding:8px;
+    background-color:white;
+}
 
+li {
+    list-style: none;
+    margin: 10px 0;
+}
+.nav-item{
+    margin:0;
+}
+.f-box li{
+    margin:5px;
+}
+@media screen and (max-width:768px) {
 }
 @media screen and (max-width: 576px) {
     .navbar {

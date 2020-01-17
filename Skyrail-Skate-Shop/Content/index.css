@@ -62,12 +62,22 @@
 .body-content {
     border: 8px solid #424242;
 }
+.col-md-5 {
+    padding: 0 8px 0 8px;
+}
+.col-md-7 {
+    padding: 0 8px 0 0;
+}
 @media screen and (max-width:768px){
     .col-md-4 {
         padding: 0 0 10px 8px;
     }
     .m {
         margin-top: 10px;
+    }
+    .col-md-5{
+        margin-bottom:10px;
+        padding-left:0;
     }
 }
 @media screen and (max-width:576px) {

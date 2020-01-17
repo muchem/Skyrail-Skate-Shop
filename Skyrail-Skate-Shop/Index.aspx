@@ -42,27 +42,27 @@
         </div>
     </div>
     <div class ="row">
-        <div class ="col-md-6">
+        <div class ="col-md-6 box-1">
              <div class ="img-box">
              <img src ="https://ak1.ostkcdn.com/images/products/is/images/direct/282925b66a64dbbd3bb33e1c379f11260e0fe9e2/Women%27s-and-men%27s-Casual-Graphic-Hoodies.jpg" />
          </div>
              <h5 class ="text-center box-tag"><b>Shop Hoodies</b></h5>
         </div>
-         <div class ="col-md-6">
+         <div class ="col-md-6 box-2">
               <div class ="img-box">
                    <img src ="https://cdn.shopify.com/s/files/1/1696/5669/products/444444938_5a82e2b0-1287-470a-a7fe-900568cf7c4f_600x.jpg?v=1505603612" />
               <h5 class ="text-center box-tag"><b>Shop Graphic Tees</b></h5>
         </div>
     </div>
         <div class ="row">
-            <div class ="col-md-5">
-                 <div class ="img-box">
+            <div class ="col-md-5 ">
+                 <div class ="img-box ">
              <img src ="https://images.unsplash.com/photo-1542345812-d98b5cd6cf98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" />
          </div>
              <h5 class ="text-center box-tag"><b>Shop Beanies</b></h5>
             </div>
-            <div class ="col-md-7">
-                 <div class ="img-box">
+            <div class ="col-md-7 ">
+                 <div class ="img-box ">
              <img src ="https://f4.bcbits.com/img/0014180450_10.jpg" />
          </div>
              <h5 class ="text-center box-tag"><b>Shop Hats</b></h5>

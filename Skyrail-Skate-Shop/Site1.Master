@@ -22,7 +22,7 @@
             <div class ="container" style ="padding:0">
            <div class ="site-section">
                 <ul class ="info-link-box">
-                    <li class ="info-item"><a runat="server" href="~/Login.aspx" id ="LogLink">
+                    <li class ="info-item" style="padding:0;margin:0;"><a runat="server" href="~/Login.aspx" id ="LogLink">
                         <asp:Label ID="registrationLabel" runat="server" Text="Login/Sign Up"></asp:Label></a>
                     </li>  
                </ul>
@@ -89,7 +89,10 @@
                     </ul>
                     </div>
                     <div>
-                        <h3>fsd</h3>
+                          <ul>
+                        <li><h5>Connect</h5></li>
+               
+                    </ul>
                     </div>
                 </div>
                 <div class="col-md-6 d-flex">
@@ -97,25 +100,36 @@
                      <ul>
                         <li><h5>Explore</h5></li>
                         <li>Jobs</li>
-                        <li>About Zumiez</li>
-                        <li>Zumiez Foundation</li>
+                        <li>About Skyrail</li>
+                        <li>Skyrail Foundation</li>
                         <li>Blue Tornato</li>
                         <li>Community</li>
                         <li>Investors</li>
                         <li>Popular Searches</li>
-                        <li>Zumiez Presents</li>
+                        <li>Skyrail Presents</li>
                     </ul>
                 </div>
                     <div>
-                    <h5>Be The First To Know</h5>
-                        <p>Subscribe to email + never miss out. </p>
-
+                        <ul>
+                            <li> <h5>Be The First To Know</h5></li>
+                            <li> <p>Subscribe to email + never miss out. </p></li>
+                            <li> <button class ="email-sign">EMAIL SIGN UP</button></li>
+                            <li><img src ="http://blacklabelskates.com/wp-content/uploads/2018/12/BlackLabel-Holiday2018-Catalog-201812104.jpg" width="150px"/></li>
+                            <li><button class ="catalog-sign">SHOP THE CATALOG</button></li>
+                        </ul>
                     </div>
                 </div>
             </div>
             </div>
-            </div>
+            </div>  
         </footer>
+        <div class ="container" style ="color:lightgray">
+            <ul class ="d-flex f-box">
+                <li><h6>Privacy Policy |</h6></li>
+                <li><h6> Terms & Conditions |</h6></li>
+                <li><h6>Site Map</h6></li>
+            </ul>
+        </div>
     </form>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
