@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Skyrail-Skate-Shop"
+    "\\Skyrail-Skate-Shop",
+    "\\Skyrail-Skate-Shop\\Content"
   ],
-  "SelectedNode": "\\Skyrail-Skate-Shop\\Web.config",
+  "SelectedNode": "\\Skyrail-Skate-Shop\\Content\\Site.css",
   "PreviewInSolutionExplorer": false
 }

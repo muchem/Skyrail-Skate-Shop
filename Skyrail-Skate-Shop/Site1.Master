@@ -123,13 +123,13 @@
             </div>
             </div>  
         </footer>
-        <div class ="container" style ="color:lightgray">
+      <!--  <div class ="container" style ="color:lightgray;align-items:center">
             <ul class ="d-flex f-box">
                 <li><h6>Privacy Policy |</h6></li>
                 <li><h6> Terms & Conditions |</h6></li>
                 <li><h6>Site Map</h6></li>
             </ul>
-        </div>
+        </div> -->
     </form>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

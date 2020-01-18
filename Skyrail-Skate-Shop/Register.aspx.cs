@@ -27,7 +27,7 @@ namespace Skyrail_Skate_Shop
                 sqlcom.Parameters.AddWithValue("@Username",UserBox.Text.Trim());
                 sqlcom.Parameters.AddWithValue("@Password",PassBox.Text.Trim());
                 sqlcom.Parameters.AddWithValue("@Firstname",FnameBox.Text.Trim());
-                sqlcom.Parameters.AddWithValue("@Lastname",PassBox.Text.Trim());
+                sqlcom.Parameters.AddWithValue("@Lastname",LastNameBox.Text.Trim());
                 sqlcom.Parameters.AddWithValue("@Email",EmailBox.Text.Trim());
                 sqlcom.ExecuteNonQuery();
                 Connection.Close();

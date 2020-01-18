@@ -3,6 +3,7 @@
 }
 .body-content {
     background-color: white;
+    margin-bottom:50px;
 }
 
 .navbar {
@@ -116,7 +117,7 @@ li {
     margin:0;
 }
 .f-box li{
-    margin:5px;
+    margin:0px;
 }
 @media screen and (max-width:768px) {
 }
