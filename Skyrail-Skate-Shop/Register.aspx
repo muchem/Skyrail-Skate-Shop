@@ -40,7 +40,7 @@
 </div>
         <div class ="col-sm-6">
           <h6>Last Name</h6>
-            <asp:TextBox ID="LastNameBox" runat="server" CssClass="input"></asp:TextBox>
+            <asp:TextBox ID="" runat="server" CssClass="input"></asp:TextBox>
              <p style="color:red;"> <asp:RequiredFieldValidator id="RequiredFieldValidator3"
               runat="server"
               ControlToValidate="LastNameBox"

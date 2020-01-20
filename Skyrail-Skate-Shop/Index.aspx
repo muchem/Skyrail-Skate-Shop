@@ -4,7 +4,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lalezar|Mitr&display=swap" rel="stylesheet">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    <div class="container">
  <div class ="row">
      <div class ="col-sm-6 box-1">
          <div class ="img-box">
@@ -69,4 +69,5 @@
             </div>
         </div>
  </div>
+        </div>
 </asp:Content>

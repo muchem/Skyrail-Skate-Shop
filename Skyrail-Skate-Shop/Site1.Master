@@ -53,7 +53,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#"><b>BIKES</b></a>
+                <a class="nav-link" href="Bikes.aspx"><b>BIKES</b></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#"><b>SCOOTERS</b></a>
@@ -68,7 +68,7 @@
     </div>
   </div>
 </nav>
-        <div class = "container body-content">
+        <div class = "container-fluid body-content">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>

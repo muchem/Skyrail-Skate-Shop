@@ -10,7 +10,7 @@
         height: 100%;
     }
 
-.body-content {
+.container {
     background-color:white;
 }
 
@@ -59,7 +59,7 @@
 .col-md-4 {
     padding: 0 0 0px 8px;
 }
-.body-content {
+.container {
     border: 8px solid #424242;
 }
 .col-md-5 {
@@ -90,7 +90,7 @@
     .box-1,.box-2{
         padding:0;
     }
-    .body-content {
+    .container {
         border:none;
     }
 }
