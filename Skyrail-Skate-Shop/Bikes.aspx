@@ -5,10 +5,12 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class ="jumbotron text-center">
-           <h1>Bike</h1>
+        <div class ="jumbo-txt">
+           <h1>Bikes</h1>
         <p>Shop our collection of quality BMX Bikes, Fixed Gear Bikes, Road Bikes, & More. Whether you are an entry level bike rider or seasoned veteran of the roads, City Grounds has got you covered. We make the complete bike buying process easy so you can get out and ride today! Check 
          out top brands such as SE Bikes, Crew Bike Co., Golden Cycles, Cult BMX, Fuji Bikes, Specialized, and more.</p>
     </div>
+</div>
     <div class ="row">
         <div class ="col-md-4">
             <div class ="img-box">
@@ -39,7 +41,7 @@
             <h3>BIKES</h3>
                  <p>Shop Now</p>
         </div>
-        </div>
-        </div>
+     </div>
+  </div>
     
 </asp:Content>

@@ -1,3 +1,27 @@
+.jumbotron {
+    background-image: url("./Images/Bike-hero.jpg");
+    background-position: center;
+    background-size: cover;
+    color:white;
+    height:50vh;
+}
+.jumbo-txt{
+    text-align:center;
+    position:relative;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.body-content {
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    margin-bottom:0;
+}
+.row{
+    padding:10px;
+}
 .img-box{
     width:100%;
     height:90%;
