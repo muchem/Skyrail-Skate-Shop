@@ -10,10 +10,15 @@
         height: 100%;
     }
 
-.container {
-    background-color:white;
+.main {
+    background-color: white;
+    border: 8px solid #424242;
 }
-
+.body-content{
+    margin:0;
+    padding:0;
+    background-color:black;
+}
 .s {
     position: relative;
     bottom: 90px;
@@ -59,9 +64,7 @@
 .col-md-4 {
     padding: 0 0 0px 8px;
 }
-.container {
-    border: 8px solid #424242;
-}
+
 .col-md-5 {
     padding: 0 8px 0 8px;
 }
