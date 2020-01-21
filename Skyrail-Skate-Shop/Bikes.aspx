@@ -11,6 +11,7 @@
          out top brands such as SE Bikes, Crew Bike Co., Golden Cycles, Cult BMX, Fuji Bikes, Specialized, and more.</p>
     </div>
 </div>
+    <div class ="container">
     <div class ="row">
         <div class ="col-md-4">
             <a href ="Bmx.aspx">
@@ -47,5 +48,5 @@
         </div>
      </div>
   </div>
-    
+ </div>
 </asp:Content>

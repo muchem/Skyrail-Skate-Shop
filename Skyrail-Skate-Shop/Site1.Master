@@ -75,7 +75,7 @@
         <footer>
             <h1 class ="text-center"><b>SKYRAIL</b></h1>
             <div class ="row"style="background-color:white;">
-                <div class ="container">
+                <div class ="container" style =" padding:0">
                     <div class ="row">
                 <div class="col-md-6 d-flex">
                     <div>
@@ -123,13 +123,11 @@
             </div>
             </div>  
         </footer>
-      <!--  <div class ="container" style ="color:lightgray;align-items:center">
-            <ul class ="d-flex f-box">
-                <li><h6>Privacy Policy |</h6></li>
-                <li><h6> Terms & Conditions |</h6></li>
-                <li><h6>Site Map</h6></li>
-            </ul>
-        </div> -->
+    <section style ="background-color:black;padding:8px 0;">
+        <div class ="container" style ="color:lightgray;align-items:center">
+        <h6><small>Privacy Policy | Terms and Agreements | Site Map</small></h6>
+        </div> 
+    </section>
     </form>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
