@@ -13,9 +13,11 @@
           <h3 class ="s">Shop Decks</h3>
      </div>
      <div class ="col-sm-6 box-2">
+           <a href ="Bmx.aspx">
          <div class ="img-box">
              <img src ="https://images.unsplash.com/photo-1511361440208-4ed8c30293a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
          </div>
+               </a>
          <h3 class ="s">Shop Bmx</h3>
      </div> 
  </div>

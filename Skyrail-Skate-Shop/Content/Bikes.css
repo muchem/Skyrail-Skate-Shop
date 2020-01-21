@@ -40,7 +40,9 @@
     margin:0;
   
 }
-
+a:hover{
+    text-decoration:none;
+}
 @media screen and (max-width:768px){
     .col-md-4 {
         margin-bottom: 10px;

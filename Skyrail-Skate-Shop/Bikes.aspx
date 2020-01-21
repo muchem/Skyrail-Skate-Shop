@@ -13,14 +13,18 @@
 </div>
     <div class ="row">
         <div class ="col-md-4">
+            <a href ="Bmx.aspx">
             <div class ="img-box">
              <img src = "https://images.unsplash.com/photo-1487113991643-86bfb4c9de2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" />
          </div>
+                </a>
+             <a href ="Bmx.aspx">
             <div class ="txt-box">
           <h1><b>BMX</b></h1>
               <h3>BIKES</h3>
                 <p>Shop Now</p>
             </div>
+                 </a>
         </div>
         <div class ="col-md-4">
              <div class ="img-box">
