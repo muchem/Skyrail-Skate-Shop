@@ -4,3 +4,26 @@
 .img-box img{
     width:100%;
 }
+.jumbotron {
+    background-image: url("./Images/shop-bmx.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 50vh
+   
+}
+.txt {
+    text-align: center;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 15px;
+}
+.body-content{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    margin-bottom:0;
+}

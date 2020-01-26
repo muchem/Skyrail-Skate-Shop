@@ -3,8 +3,12 @@
     <link rel ="stylesheet" href ="Content/Bmx.css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class ="jumbotron">
-           
+    <div class ="jumbotron"style="margin:0;padding:0">
+        <div class="txt">
+           <h1><b>BMX</b></h1>
+        <p>Check out our collection of freestyle bmx bikes ready to hit the local skate park ramps or cruise the 
+            streets. Choose from top brands such as Haro, Cult, Subrosa, Sunday, SE Bikes, GT Bicycles, and much more.</p>
+            </div>
         </div>
     <div class ="container">
         <div class ="row">
