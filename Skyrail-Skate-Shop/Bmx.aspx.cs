@@ -33,5 +33,11 @@ namespace Skyrail_Skate_Shop
                 DataViewG.DataBind();
             }
         }
+         protected void ViewItem_Click(object sender, EventArgs e)
+        {
+            int ProductId = Convert.ToInt32((sender as LinkButton).CommandArgument);
+            Session["ProductID"] = ProductId;
+            Response.Redirect("~/about.aspx");
+        }
     }
 }
