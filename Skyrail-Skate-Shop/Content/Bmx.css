@@ -17,14 +17,6 @@
    
 }
 
-.view-link {
-    color: black;
-}
-
-    .view-link:hover {
-        text-decoration: none;
-        color: black;
-    }
 
 .col-md-3 h4 {
     border-bottom: 1px solid #e6e6e6;

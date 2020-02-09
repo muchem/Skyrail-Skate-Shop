@@ -24,7 +24,20 @@ namespace Skyrail_Skate_Shop
             if(Connection.State == ConnectionState.Closed)
             {
                 Connection.Open();
+                SqlDataAdapter sqladpt = new SqlDataAdapter("SelectFixedBikes", Connection);
+                sqladpt.SelectCommand.CommandType = CommandType.StoredProcedure;
+                DataTable dataTb = new DataTable();
+                sqladpt.Fill(dataTb);
+                Connection.Close();
+                DataViewG.DataSource = dataTb;
+                DataViewG.DataBind();
             }
+        }
+         protected void ViewItem_Click(object sender, EventArgs e)
+        {
+            int ProductId = Convert.ToInt32((sender as LinkButton).CommandArgument);
+            Session["ProductID"] = ProductId;
+            Response.Redirect("~/about.aspx");
         }
     }
 }

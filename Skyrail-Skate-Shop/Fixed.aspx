@@ -22,7 +22,20 @@
                  <h4><b>Clothing</b></h4>
                 </div>
             <div class="col-md-9">
-                  
+                   <asp:DataList ID="DataViewG"
+                      RepeatDirection="Horizontal"
+                      RepeatColumns="3"
+                       runat="server">
+         <ItemTemplate>
+             <asp:LinkButton ID="ViewItem" runat="server" CssClass="view-link" CommandArgument='<%#Eval("ProductID") %>' OnClick ="ViewItem_Click">
+                  <div class="img-box">
+                           <img src ="<%#Eval("pImage") %>" />
+                                 </div>
+                     <h6 class ="text-center"style ="margin:0;"><small><b><%#Eval("Pname") %></b></small></h6>
+                     <p class ="text-center">$<%#Eval("Pprice") %></p>
+                </asp:LinkButton>
+              </ItemTemplate>
+         </asp:DataList>
                </div>
          </div>
     </div>

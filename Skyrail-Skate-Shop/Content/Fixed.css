@@ -1,10 +1,17 @@
 .jumbotron {
-    background-image: url("https://cdn.shopify.com/s/files/1/0081/1222/files/november-about.jpg?17260");
+    background-image: url("./Images/Fixed-Hero.jpg");
     background-position: center;
     background-size: cover;
     color: white;
     height: 50vh
 }
+.img-box {
+    width: 100%;
+}
+
+    .img-box img {
+        width: 100%;
+    }
 .col-md-3 h4 {
     border-bottom: 1px solid #e6e6e6;
     padding-bottom: 3px;

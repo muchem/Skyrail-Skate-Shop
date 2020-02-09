@@ -21,6 +21,14 @@
         padding: 5px 0;
         background-color: #f74945;
     }
+.view-link {
+    color: black;
+}
+
+    .view-link:hover {
+        text-decoration: none;
+        color: black;
+    }
 
 .info-item {
     list-style: none;
