@@ -10,12 +10,17 @@
     padding: 0;
     margin-bottom: 30px;
 }
-
-.free-banner {
-    border-bottom: 5px solid black;
-    padding: 5px 0;
-    background-color: #f74945;
+.side-link{
+    color:gray;
 }
+    .side-link:hover{
+        color:black;
+    }
+    .free-banner {
+        border-bottom: 5px solid black;
+        padding: 5px 0;
+        background-color: #f74945;
+    }
 
 .info-item {
     list-style: none;
@@ -26,8 +31,17 @@
     width: 100%;
     padding: 18px;
     background-color: white;
+ 
 }
-
+.flex-box-main {
+    display: flex;
+    align-items: center;
+}
+.search-box {
+    padding: 6px 1px;
+    margin-left: 14px;
+    border: solid 1px #dedede;
+}
 header {
     padding: 20px 0;
 }
@@ -57,8 +71,7 @@ header {
 
 .logo {
     color: black;
-    text-align: center;
-    font-size:4rem;
+    font-size:5rem;
     margin:0;
     font-family: 'Black Ops One', cursive;
 }
@@ -82,8 +95,6 @@ header {
 }
 
 footer {
-    
-
     margin-top: 30px;
 }
     footer h1 {

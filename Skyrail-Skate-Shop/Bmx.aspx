@@ -14,9 +14,9 @@
         <div class ="row">
             <div class ="col-md-3">
                 <h4><b>Bikes</b></h4>
-                <p>Bmx Bikes</p>
-                <p>Fixed Gear Bikes</p>
-                <p>Road Bikes</p>
+                <p><b>Bmx Bikes</b></p>
+                <p><a href ="Fixed.aspx" class ="side-link">Fixed Gear Bikes</a></p>
+                <p><a href ="#" class ="side-link">Road Bikes</a></p>
                  <h4><b>Parts</b></h4>
                  <h4><b>Accesories</b></h4>
                  <h4><b>Clothing</b></h4>

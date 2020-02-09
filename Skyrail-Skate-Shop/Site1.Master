@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href ="Content/Site.css" />
     <link href="https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -31,9 +32,20 @@
         </div>
         <header class ="container-fluid logo-bar">
             <div class =" container">
-                <h1 class ="logo">SKYRAIL</h1> 
+                <div class ="flex-box-main">
+                    <div class ="box">
+                      <h1 class ="logo">SKYRAIL</h1>  
+                </div>
+                <div class ="box">
+                     <input runat="server" class="search-box" placeholder ="What are you looking for?">
+                   
+               </div>
+               
+                </div>
+                
+              
             </div>
-        <h6 class ="text-center sub-txt">SKATE SHOP</h6> 
+ 
         </header>
         <nav class="navbar navbar-expand-md top-nav navbar-dark">
             <div class="container">

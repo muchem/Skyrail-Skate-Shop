@@ -28,15 +28,20 @@
                  </a>
         </div>
         <div class ="col-md-4">
+              <a href ="Fixed.aspx">
              <div class ="img-box">
              <img src = "https://www.lekkerbikes.com/us/wp-content/uploads/2013/08/Lekker-Amsterdam-Single-Speed-Fixie-Style-Slider-image-1200x800.jpg" />
          </div>
+                  </a>
+               <a href ="Fixed.aspx">
         <div class ="txt-box">
           <h1><b>FIXED</b></h1>
           <h3>GEAR</h3>
              <p>Shop Now</p>
             </div>
+              </a>
         </div>
+      
         <div class ="col-md-4">
              <div class ="img-box">
              <img src = "https://bikerumor-wpengine.netdna-ssl.com/wp-content/uploads/2011/11/cervelo-S5-review-road-bike-test-action05.jpg" />
