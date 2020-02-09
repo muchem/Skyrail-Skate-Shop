@@ -1,0 +1,42 @@
+.jumbotron {
+    background-image: url("https://www.rei.com/dam/content_022717_0709_road_bikes_choose_lg.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 50vh
+}
+
+.img-box {
+    width: 100%;
+}
+
+    .img-box img {
+        width: 100%;
+    }
+
+.col-md-3 h4 {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 3px;
+}
+
+.txt {
+    text-align: center;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 15px;
+}
+
+.main {
+    margin-top: 15px;
+}
+
+.body-content {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}

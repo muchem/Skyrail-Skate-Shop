@@ -1,28 +1,29 @@
-﻿<%@ Page Title="Skyrail | Fixed Gear Bikes" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeFile="Fixed.aspx.cs" Inherits="Skyrail_Skate_Shop.Fixed" %>
+﻿<%@ Page Title="Skyrail | Road Bikes" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeFile="Road.aspx.cs" Inherits="Skyrail_Skate_Shop.Road" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link rel ="stylesheet" href ="Content/Fixed.css" />
+    <link rel ="stylesheet" href ="./Content/Road.css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <div class ="jumbotron"style="margin:0;padding:0">
         <div class="txt">
-           <h1><b>Fixed Gear Bikes</b></h1>
-        <p>Shop fixie bikes at Skyrail including single-speed bikes and fixed gear bicycles built for the city commuter, urban cyclist or weekend warrior.
-            Get the perfect fixie bike from top brands such as Golden Cycles, 6ku Bikes, Pure Cycles, Fuji Bikes, Crew Bike Co., and more!</p>
+           <h1><b>Road Bikes</b></h1>
+        <p>Choose from high performance road bikes, intermediate road bikes or beginner road bikes at City Grounds. Great for training,
+            competitive cycling & exercising.Shop top road bicycle brands such as Specialized, Fuji Bikes, Kestrel, Fairdale Bikes,
+            Cannondale, Masi Bikes and more!</p>
             </div>
         </div>
-     <div class ="container main">
+    <div class ="container main">
         <div class ="row">
             <div class ="col-md-3">
                 <h4><b>Bikes</b></h4>
                 <p><a href ="Bmx.aspx" class ="side-link">Bmx Bikes</a></p>
-                <p><b>Fixed Gear Bikes</b></p>
-                <p><a href ="Road.aspx" class ="side-link">Road Bikes</a></p>
+                <p><a href ="Fixed.aspx" class ="side-link">Fixed Gear Bikes</a></p>
+                <p><b>Road Bikes</b></p>
                  <h4><b>Parts</b></h4>
                  <h4><b>Accesories</b></h4>
                  <h4><b>Clothing</b></h4>
                 </div>
             <div class="col-md-9">
-                   <asp:DataList ID="DataViewG"
+                 <asp:DataList ID="DataViewG"
                       RepeatDirection="Horizontal"
                       RepeatColumns="3"
                        runat="server">

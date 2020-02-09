@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Skyrail-Skate-Shop",
-    "\\Skyrail-Skate-Shop\\Content"
+    "\\Skyrail-Skate-Shop\\Content",
+    "\\Skyrail-Skate-Shop\\Content\\Images",
+    "\\Skyrail-Skate-Shop\\Content\\Images\\ROAD"
   ],
-  "SelectedNode": "\\Skyrail-Skate-Shop\\Content\\Bmx.css",
+  "SelectedNode": "\\Skyrail-Skate-Shop\\Content\\Images\\ROAD",
   "PreviewInSolutionExplorer": true
 }
