@@ -1,0 +1,33 @@
+.jumbotron {
+    background-image: url("https://create.adobe.com/content/dam/2019/201902/taking-skateboard-deck-designs-to-the-third-dimension/201902-skateboard3D_1650x600.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 50vh
+}
+
+.img-box {
+    width: 100%;
+    height:100%;
+}
+
+    .img-box img {
+        width: 100%;
+        height:100%;
+    }
+.txt {
+    text-align: center;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 15px;
+}
+.body-content {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}

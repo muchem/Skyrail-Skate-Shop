@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Skyrail-Skate-Shop",
-    "\\Skyrail-Skate-Shop\\Content",
-    "\\Skyrail-Skate-Shop\\Content\\Images"
+    "\\Content"
   ],
-  "SelectedNode": "\\Skyrail-Skate-Shop\\Site1.Master",
+  "SelectedNode": "\\Site1.Master",
   "PreviewInSolutionExplorer": false
 }

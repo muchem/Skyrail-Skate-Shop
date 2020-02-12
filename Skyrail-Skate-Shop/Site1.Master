@@ -31,7 +31,7 @@
            </div> 
         </div>
         <header class ="container-fluid logo-bar">
-            <div class =" container">
+            <div class =" container" style ="padding:0">
                 <div class ="flex-box-main">
                     <div class ="box">
                       <h1 class ="logo">SKYRAIL</h1>  
@@ -61,7 +61,7 @@
                 <a class="nav-link" href="Index.aspx"><b>HOME</b></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><b>SKATEBOARDS</b></a>
+                <a class="nav-link" href="Skateboards.aspx"><b>SKATEBOARDS</b></a>
             </li>
 
             <li class="nav-item">

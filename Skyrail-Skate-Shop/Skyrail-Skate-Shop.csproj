@@ -73,11 +73,13 @@
     <Content Include="Content\Register.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Dashboard.aspx" />
+    <Content Include="Skateboard-Decks.aspx" />
     <Content Include="Fixed.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Road.aspx" />
+    <Content Include="Skateboard-Completes.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +96,13 @@
     </Compile>
     <Compile Include="Dashboard.aspx.designer.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Skateboard-Decks.aspx.cs">
+      <DependentUpon>Skateboard-Decks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Skateboard-Decks.aspx.designer.cs">
+      <DependentUpon>Skateboard-Decks.aspx</DependentUpon>
     </Compile>
     <Compile Include="Fixed.aspx.cs">
       <DependentUpon>Fixed.aspx</DependentUpon>
@@ -137,6 +146,13 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Skateboard-Completes.aspx.cs">
+      <DependentUpon>Skateboard-Completes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Skateboard-Completes.aspx.designer.cs">
+      <DependentUpon>Skateboard-Completes.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

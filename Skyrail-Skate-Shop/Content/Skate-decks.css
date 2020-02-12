@@ -1,0 +1,30 @@
+.jumbotron {
+    background-image: url("");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 50vh
+}
+
+.img-box {
+    width: 100%;
+}
+
+    .img-box img {
+        width: 100%;
+    }
+
+.col-md-3 h4 {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 3px;
+}
+
+
+.body-content {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
