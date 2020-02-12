@@ -7,9 +7,11 @@
     <div class="container main"> 
  <div class ="row">
      <div class ="col-sm-6 box-1">
+         <a href ="Skateboard-Decks.aspx">
          <div class ="img-box">
              <img src = "https://www.tactics.com/a/bmpz/r/skateboard-deck-type-cruiser-skate-deck.jpg" />
          </div>
+             </a>
           <h3 class ="s">Shop Decks</h3>
      </div>
      <div class ="col-sm-6 box-2">
@@ -23,9 +25,11 @@
  </div>
     <div class ="row">
         <div class ="col-md-12" style="padding:0 5px">
+            
              <div class ="img-box">
              <img src ="https://static.zumiez.com/skin/frontend/delorum/default/images/2019-HOL-signage-UP-TO-70-HP-908x200-ENG.jpg" />
          </div>
+                
               <h5 class ="text-center box-tag"><b>Shop Now</b></h5>
         </div>
     </div>
