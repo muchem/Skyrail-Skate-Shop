@@ -6,7 +6,6 @@
   <div class ="jumbotron"style="margin:0;padding:0">
         <div class="txt">
            <h1><b>Skateboard Decks</b></h1>
-        <p></p>
             </div>
         </div>
      <div class ="container main">
