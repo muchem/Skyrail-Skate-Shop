@@ -30,7 +30,7 @@
                   <div class="img-box">
                            <img src ="<%#Eval("pImage") %>" />
                                  </div>
-                     <h6 class ="text-center"style ="margin:0;"><small><%#Eval("Pname") %></small></h6>
+                     <h6 class ="text-center"style ="margin:0;"><small><b><%#Eval("Pname") %></b></small></h6>
                      <p class ="text-center">$<%#Eval("Pprice") %></p>
                 </asp:LinkButton>
               </ItemTemplate>

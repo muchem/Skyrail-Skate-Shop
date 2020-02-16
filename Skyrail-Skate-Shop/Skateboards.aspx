@@ -16,14 +16,14 @@
             <div class ="col-md-6">
                <a href ="Skateboard-Decks.aspx">
                 <div class="img-box">
-                    <img src="https://southsideartsdistrict.com/wp-content/uploads/2019/08/Homebase_NMIH_GKPhotography_Skatedeck.jpg" />
+                    <img src="https://d32dm0rphc51dk.cloudfront.net/QLKerwlqMce85-Fklu_R6Q/large.jpg" />
                 </div>
                     </a>
             </div>
             <div class ="col-md-6">
                   <a href ="Skateboard-Completes.aspx">
                  <div class="img-box">
-                    <img src="https://www.warehouseskateboards.com/blog/wp-content/uploads/2019/11/what-size-skateboard-do-you-need-buying-guide-tips.jpg" />
+                    <img src="https://trashmagination.com/wp-content/uploads/2019/04/Skateboard_lukas-bato-993067-unsplash-700x400.jpg" />
                 </div>
                   </a>
             </div>
