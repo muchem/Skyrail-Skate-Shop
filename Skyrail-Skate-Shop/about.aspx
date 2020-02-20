@@ -15,9 +15,9 @@
                </div>
        </div>
              <div class ="col-md-6">
-                 <h2><%#Eval("Pname")%></h2>
+                 <h2><asp:Label ID="productNameLb" runat="server" Text='<%#Eval("Pname")%>'></asp:Label></h2>
                  <p><small><%#Eval("Pdescription")%></small></p>
-                 <p>$<%#Eval("Pprice") %></p>
+                 <p>$<asp:Label ID="Label1" runat="server" Text='<%#Eval("Pprice") %>'></asp:Label></p>
                  <asp:Button ID="Button1" runat="server" Text="Add To Cart" CssClass="cart-bnt" />
              </div>
             </div>

@@ -12,7 +12,7 @@ namespace Skyrail_Skate_Shop
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
-            {
+            {   
                 string email = Session["Email"].ToString();
                 Label1.Text = email;
 

@@ -133,7 +133,12 @@ footer {
     transform: translate(-50%,-50%);
     padding: 0 15px;
 }
-
+.bag-icon{
+    width:70px;
+}
+.search-box{
+    width:300px;
+}
 .main {
     margin-top: 15px;
 }

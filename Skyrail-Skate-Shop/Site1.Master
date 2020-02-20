@@ -36,10 +36,13 @@
                     <div class ="box">
                       <h1 class ="logo">SKYRAIL</h1>  
                 </div>
-                <div class ="box">
+                <div class ="box"style="flex:1;">
                      <input runat="server" class="search-box" placeholder ="What are you looking for?">
                    
                </div>
+                    <div class ="ga">
+                      <img src ="https://uxwing.com/wp-content/themes/uxwing/download/19-ecommerce-shopping/shopping-bag.png" alt="shopping-bag-icon" class ="bag-icon" />
+                    </div>
                
                 </div>
                 
