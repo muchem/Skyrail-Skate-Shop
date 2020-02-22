@@ -3,7 +3,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    <div class ="container">
     <link rel = "stylesheet" href = "Content/Register.css" />
     <h3 class="text-center header">Create your Skyrail account</h3>
     <p class="text-center" style ="padding:0 25px;">Create an account to enjoy faster checkout, easy order tracking, emails with special offers and exclusive product drops, membership to The Skyrail Stash, saving and sharing your favorites, and more.</p>
@@ -40,7 +40,7 @@
 </div>
         <div class ="col-sm-6">
           <h6>Last Name</h6>
-            <asp:TextBox ID="" runat="server" CssClass="input"></asp:TextBox>
+            <asp:TextBox ID="LastNameBox" runat="server" CssClass="input"></asp:TextBox>
              <p style="color:red;"> <asp:RequiredFieldValidator id="RequiredFieldValidator3"
               runat="server"
               ControlToValidate="LastNameBox"
@@ -74,4 +74,5 @@
          <a href="Login.aspx" class="login-link">Login</a>
         </div>
     </div>
+</div>
 </asp:Content>
